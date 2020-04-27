@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #FFCC00;
+}
+
+h1, h2, li, p, a {
+	font-family: 'Poiret', Cursive;
+
+}
+
+ul.Header li {
+	display: inline-flex;
+	list-style-type: none;
+	padding: 0;
+}
+ul.Header {
+	border-radius: 10px;
+	background-color: #111;
+	padding: 0;
+}
+
+ul.Header li a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+}
+
+.content {
+	text-align: center;
+	background-color: #FFF;
+	padding:20px;
+	font-family: 'Poiret', Cursive;
+	border-radius: 10px;
+}
+
+.content h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.content li {
+	margin-bottom: 20px;
+}
+
+.active {
+	border-radius: 1px;
+	background-color: #0099FF;
+}
